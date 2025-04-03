@@ -11,3 +11,10 @@ const OTP = parseInt(document.getElementById('OTP').value, 10);
     console.log (nome);
  }
  }
+
+ if (!credencial){
+   alert ('Por favor, insira sua credencial');
+   return;
+}else{
+   console.log (credencial);
+}
